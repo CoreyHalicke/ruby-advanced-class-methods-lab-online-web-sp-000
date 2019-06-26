@@ -46,7 +46,7 @@ class Song
 
   def self.alphabetical
     @@all.sort_by! do |song|
-      print song
+      
     end
   end
 
