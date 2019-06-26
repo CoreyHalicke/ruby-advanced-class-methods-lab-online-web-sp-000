@@ -39,12 +39,14 @@ class Song
       #else
       #  self.create_by_name(name)
       #end
+      # above is same as below
       self.find_by_name(name) || self.create_by_name(name)
   end
 
 
   def self.alphabetical
-
+    @@all.sort_by { |name| name.sort }
+    
   end
 
   def self.destroy_all
