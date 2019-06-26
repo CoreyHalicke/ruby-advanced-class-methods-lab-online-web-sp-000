@@ -54,7 +54,7 @@ class Song
     artist = data[1]
     song = self.new
     song.name = name
-    song.artist = artist
+    song.artist_name = artist
     song
   end
 
