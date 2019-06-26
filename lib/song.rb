@@ -48,8 +48,6 @@ class Song
     @@all.sort_by! do |song|
       print song
     end
-    puts @@all
-
   end
 
   def self.destroy_all
