@@ -45,7 +45,10 @@ class Song
 
 
   def self.alphabetical
-    @@all.sort_by { |name| name.sort }
+    @@all.sort_by do |song|
+      song[:name]
+    end
+    puts @@all
     
   end
 
