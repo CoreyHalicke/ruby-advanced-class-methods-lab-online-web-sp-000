@@ -49,7 +49,7 @@ class Song
       song[:name]
     end
     puts @@all
-    
+
   end
 
   def self.destroy_all
