@@ -55,7 +55,7 @@ class Song
     song = self.new
     song.name = name
     song.artist_name = artist
-    print song
+    song
   end
 
   def self.destroy_all
