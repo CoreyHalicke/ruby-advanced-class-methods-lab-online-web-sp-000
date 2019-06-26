@@ -53,7 +53,7 @@ class Song
     artist = data[0]
     name = data[1]
     song = self.new
-    song.name = name
+    song.name = name.chomp(".mp3")
     song.artist_name = artist
     song
   end
